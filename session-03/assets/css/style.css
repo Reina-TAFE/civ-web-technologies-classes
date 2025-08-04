@@ -49,3 +49,48 @@ p{
     text-align: center;
     font-size: 12pt;
 }
+
+.colour-shift {
+    display: block;
+    animation-duration: 5s;
+    animation-name: colour-shift;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes colour-shift{
+    0% {
+        background-color: #592be2;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: cyan;
+    }
+    30% {
+        background-color: lawngreen;
+    }
+    40% {
+        background-color: yellow;
+    }
+    50% {
+        background-color: orange;
+    }
+    60% {
+        background-color: orangered;
+    }
+    70% {
+        background-color: red;
+    }
+    80% {
+        background-color: purple;
+    }
+    90% {
+        background-color: darkviolet;
+    }
+    100% {
+        background-color: blueviolet;
+    }
+}
